@@ -28,11 +28,6 @@ The goal of this project is to understand how real-world init systems and superv
 - `socket()` – IPC or network communication
 - `epoll()` – scalable event loop for handling multiple file descriptors
 
-## Limitations
-
-Unfortunetly services command needs to be contained in one line ending with semicolon so it doesn't support
-commands with more than one line.
-
 ## Architecture
 
 ### 1. Manager launch
